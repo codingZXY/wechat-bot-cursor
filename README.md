@@ -1,4 +1,4 @@
-# wx-claw-bot
+# wechat-bot-cursor
 
 通过微信 **ilink / ClawBot** 协议（与 `@tencent-weixin/openclaw-weixin` 对齐）长轮询收消息，将**纯文本**对话交给本机 **Cursor Agent CLI**（`agent`），再把回复发回微信。
 
