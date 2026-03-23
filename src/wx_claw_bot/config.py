@@ -38,7 +38,7 @@ class Settings(BaseSettings):
     # 注意：Cursor CLI 具体参数名可能会随版本变动，因此提供可配置的 resume 参数。
     # 默认不开启，避免你未确认参数名时导致 agent 直接失败。
     cursor_persistent_session: bool = Field(default=True)
-    cursor_resume_chat_id_arg: str = Field(default="--resume-chat-id")
+    cursor_resume_chat_id_arg: str = Field(default="--resume")
 
     # Long poll
     get_updates_timeout_sec: int = Field(default=40, ge=5, le=120)

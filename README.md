@@ -53,7 +53,7 @@ pip install -e .
 | `WX_CLAW_BOT_AGENT_MODEL` | 可选，传给 `agent --model` |
 | `WX_CLAW_BOT_AGENT_TIMEOUT_SEC` | Agent 超时秒数，默认 `600` |
 | `WX_CLAW_BOT_CURSOR_PERSISTENT_SESSION` | 是否启用 Cursor Agent 持久会话（按用户复用对话上下文），默认 `true` |
-| `WX_CLAW_BOT_CURSOR_RESUME_CHAT_ID_ARG` | resume 参数名（传给 Cursor CLI 用于恢复会话），默认 `--resume-chat-id`；如无效可改成你当前 `agent --help` 看到的参数 |
+| `WX_CLAW_BOT_CURSOR_RESUME_CHAT_ID_ARG` | resume 参数名（传给 Cursor CLI 用于恢复会话），默认 `--resume`；如无效可改成你当前 `agent --help` 看到的参数 |
 | `WX_CLAW_BOT_ALLOW_FROM` | 逗号分隔的允许发件人 ID；**非空时**仅这些用户可触发回复 |
 | `WX_CLAW_BOT_ROUTE_TAG` | 可选，请求头 `SKRouteTag`（与 OpenClaw 微信插件一致） |
 | `WX_CLAW_BOT_LOG_LEVEL` | 日志级别，默认 `INFO` |
